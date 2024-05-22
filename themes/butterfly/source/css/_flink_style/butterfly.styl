@@ -9,13 +9,14 @@
   text-align: center
 
   & > .flink-list-item
+    border-style: groove
     position: relative
     float: left
     overflow: hidden
     margin: 15px 7px
-    width: calc(100% / 3 - 15px)
-    height: 90px
-    border-radius: 8px
+    width: calc(100% / 4 - 15px)
+    height: 110px
+    border-radius: 18px
     line-height: 17px
     -webkit-transform: translateZ(0)
 
@@ -48,8 +49,12 @@
       transform: scale(1)
 
     a
+      position: relative
+      top: 10px
       color: var(--font-color)
       text-decoration: none
+      
+
 
       .flink-item-icon
         float: left

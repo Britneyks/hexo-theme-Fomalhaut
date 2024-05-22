@@ -8,23 +8,23 @@ type: "link"
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
-    - name: Fomalhaut🥝
-      link: https://www.fomal.cc/
-      avatar: https://www.fomal.cc/assets/avatar.webp
-      descr: Future is now 🍭🍭🍭
-      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+    - name: 子非鱼🐟
+      link: https://blog.zifyu.top/
+      avatar: https://bu.dusays.com/2024/03/13/65f1bb5323ce4.webp
+      descr: 迷途漫漫，终有一归！
+      siteshot: https://bu.dusays.com/2024/03/14/65f2b80d379f9.png
 ```
 <!-- endtab -->
 
 <!-- tab 🥗Volantis -->
 ```JSON
 {
-  "title": "Fomalhaut🥝",
-  "screenshot": "https://source.fomal.cc/siteshot/www.fomal.cn.jpg",
-  "url": "https://www.fomal.cc/",
-  "avatar": "https://www.fomal.cc/assets/avatar.webp",
-  "description": "Future is now 🍭🍭🍭",
-  "keywords": "Fomalhaut🥝"
+  "title": "子非鱼🐟",
+  "screenshot": "https://bu.dusays.com/2024/03/14/65f2b80d379f9.png",
+  "url": "https://blog.zifyu.top/",
+  "avatar": "https://bu.dusays.com/2024/03/13/65f1bb5323ce4.webp",
+  "description": "迷途漫漫，终有一归！",
+  "keywords": "子非鱼🐟"
 }
 ```
 <!-- endtab -->
@@ -33,12 +33,12 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | Fomalhaut🥝                                                   |
-| 站点截图   | https://source.fomal.cc/siteshot/www.fomal.cn.jpg |
-| 站点链接   | https://www.fomal.cc/                                        |
-| 站长头像   | https://www.fomal.cc/assets/avatar.webp                         |
-| 站点描述   | Future is now🍭🍭🍭                         |
-| 站点关键词 | Fomalhaut🥝,个人博客,代码                                     |
+| 站点名称   | 子非鱼🐟                                                   |
+| 站点截图   | https://bu.dusays.com/2024/03/14/65f2b80d379f9.png |
+| 站点链接   | https://blog.zifyu.top/                                        |
+| 站长头像   | https://bu.dusays.com/2024/03/13/65f1bb5323ce4.webp                         |
+| 站点描述   | 迷途漫漫，终有一归！                         |
+| 站点关键词 | 子非鱼🐟,个人博客,代码                                     |
 
 <!-- endtab -->
 {% endtabs %}

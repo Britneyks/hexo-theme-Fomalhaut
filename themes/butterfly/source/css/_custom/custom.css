@@ -96,11 +96,11 @@
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: LXGW;
   src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: TTQHB;
@@ -110,7 +110,7 @@
 
 @font-face {
   font-family: Consolas_1;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2);
+  src: url(/font/Consolas.woff2);
   font-display: swap;
 }
 
@@ -338,6 +338,8 @@ div#archive {
     .magnet_link,
     .gallery_link
   ):hover {
+  /* position: relative;
+  top: 10px; */
   text-decoration: none;
   color: #fefefe;
   background: var(--text-bg-hover) !important;
@@ -1199,7 +1201,7 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  /* background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png); */
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -1271,7 +1273,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://bu.dusays.com/2024/03/13/65f1bb5323ce4.webp)
     no-repeat center center;
   background-size: cover;
 }

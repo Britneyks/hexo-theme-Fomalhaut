@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fomalhaut🥝
+title: 半勺阳光🌤️
 subtitle: 
-description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+description: '迷途漫漫，终有一归！'
+keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,子非鱼🐟,子非鱼'
+author: 子非鱼🐟
 language: zh-CN
 timezone: ''
 
@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://blog.zifyu.top/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -123,9 +123,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository:  # 这里写上你的Github地址
-    branch: main
+  type: git
+  repo: git@github.com:Britneyks/Britneyks.github.io.git
+  branch: master
   # - type: baidu_url_submitter
   # - type: git
   #   #repo改为repo: git@域名:/var/repo/hexo.git
@@ -270,23 +270,23 @@ magnet:
   type: categories
   devide: 3
   display:
-    - name: 算法
-      display_name: 小Fの算法学习笔记
+    - name: 软件
+      display_name: 小🐟の优秀软件分享
       icon: 🍡
-    - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
+    - name: 日常
+      display_name: 小🐟の日常生活分享
       icon: 🍼
-    - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+    - name: FPGA学习
+      display_name: 小🐟のFPGA学习记录
       icon: 🍉
-    - name: Java基础
-      display_name: 小FのJava基础笔记
+    - name: 通信原理学习
+      display_name: 小🐟の通信原理笔记
       icon: 🍟
-    - name: 数据库
-      display_name: 小Fの数据库笔记
-      icon: 🍨
+    # - name: 数据库
+    #   display_name: 小🐟の数据库笔记
+    #   icon: 🍨
     - name: 演示
-      display_name: 小Fの案例演示笔记
+      display_name: 小🐟の案例演示笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色

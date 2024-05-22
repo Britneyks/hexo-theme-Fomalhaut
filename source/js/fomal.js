@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'ZQQBZ-L3WHT-QVDXK-LMEDQ-CKZMO-YGFL2',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(103.98,30.76, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -137,16 +137,16 @@ function showWelcome() {
           posdesc = "北——京——欢迎你~~~";
           break;
         case "天津市":
-          posdesc = "讲段相声吧。";
+          posdesc = "天津桥下老运河，风吹船影入梦多。";
           break;
         case "河北省":
-          posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";
+          posdesc = "河北山川多胜境，燕赵风情入画图。";
           break;
         case "山西省":
-          posdesc = "展开坐具长三尺，已占山河五百余。";
+          posdesc = "土高原藏古韵，山西风情入诗篇。";
           break;
         case "内蒙古自治区":
-          posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";
+          posdesc = "锦绣草原似蓝天，内蒙风情入画卷。";
           break;
         case "辽宁省":
           posdesc = "我想吃烤鸡架！";
@@ -158,12 +158,12 @@ function showWelcome() {
           posdesc = "很喜欢哈尔滨大剧院。";
           break;
         case "上海市":
-          posdesc = "众所周知，中国只有两个城市。";
+          posdesc = "碧波荡漾浦江滨，高楼林立映霓霞。";
           break;
         case "江苏省":
           switch (ipLoacation.result.ad_info.city) {
             case "南京市":
-              posdesc = "这是我挺想去的城市啦。";
+              posdesc = "紫金山下紫霞飞，古都南京史久归。";
               break;
             case "苏州市":
               posdesc = "上有天堂，下有苏杭。";
@@ -199,7 +199,7 @@ function showWelcome() {
           }
           break;
         case "安徽省":
-          posdesc = "蚌埠住了，芜湖起飞。";
+          posdesc = "碧水环绕庐山巅，翠岭峥嵘秀壮观。";
           break;
         case "福建省":
           posdesc = "井邑白云间，岩城远带山。";
@@ -211,25 +211,25 @@ function showWelcome() {
           posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
           break;
         case "湖北省":
-          posdesc = "来碗热干面！";
+          posdesc = "峡江千转凝碧玉，楚地风情入诗家";
           break;
         case "湖南省":
-          posdesc = "74751，长沙斯塔克。";
+          posdesc = "湘风吹拂江水碧，岳麓山下赏新春。";
           break;
         case "广东省":
-          posdesc = "老板来两斤福建人。";
+          posdesc = "珠江潺潺入珠城，繁华璀璨映岭南。";
           break;
         case "广西壮族自治区":
-          posdesc = "桂林山水甲天下。";
+          posdesc = "青山绿水画中游，桂林山水入诗流。";
           break;
         case "海南省":
           posdesc = "朝观日出逐白浪，夕看云起收霞光。";
           break;
         case "四川省":
-          posdesc = "康康川妹子。";
+          posdesc = "川上凌云属地势，川下悠悠逶迤行。";
           break;
         case "贵州省":
-          posdesc = "茅台，学生，再塞200。";
+          posdesc = "苍山如海翠如锦，黔地风光入画图。";
           break;
         case "云南省":
           posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天。";
@@ -238,13 +238,13 @@ function showWelcome() {
           posdesc = "躺在茫茫草原上，仰望蓝天。";
           break;
         case "陕西省":
-          posdesc = "来份臊子面加馍。";
+          posdesc = "秦岭峦峦抱古城，兵马俑影映千秋。";
           break;
         case "甘肃省":
           posdesc = "羌笛何须怨杨柳，春风不度玉门关。";
           break;
         case "青海省":
-          posdesc = "牛肉干和老酸奶都好好吃。";
+          posdesc = "碧波荡漾映天空，茫茫草原似绿毯。";
           break;
         case "宁夏回族自治区":
           posdesc = "大漠孤烟直，长河落日圆。";
@@ -285,7 +285,7 @@ function showWelcome() {
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+      `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <center style="color:var(--theme-color)">${ip}</center>${posdesc}</b>`;
   } catch (err) {
     // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
@@ -1113,27 +1113,28 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("05/03/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到子非鱼🐟の小家!`,
+    `迷途漫漫，终有一归！`,
     `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+    ███████╗██╗███████╗██╗   ██╗██╗   ██╗
+    ╚══███╔╝██║██╔════╝╚██╗ ██╔╝██║   ██║
+      ███╔╝ ██║█████╗   ╚████╔╝ ██║   ██║
+     ███╔╝  ██║██╔══╝    ╚██╔╝  ██║   ██║
+    ███████╗██║██║        ██║   ╚██████╔╝
+    ╚══════╝╚═╝╚═╝        ╚═╝    ╚═════╝ 
                                               
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2022 By 子非鱼🐟",
   ];
 
   setTimeout(
@@ -1172,7 +1173,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by 子非鱼🐟 %c 你正在访问子非鱼🐟の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1283,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| 子非鱼🐟") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('子非鱼🐟的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2789,7 +2790,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("05/03/2023 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -2804,8 +2805,10 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://img.shields.io/badge/%E5%AD%90%E9%9D%9E%E9%B1%BC-%E7%A7%91%E7%A0%94%E6%91%B8%E9%B1%BC%E4%B8%AD%F0%9F%98%80-brightgreen?style=social&logo=buymeacoffee
+      ' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://img.shields.io/badge/%E5%AD%90%E9%9D%9E%E9%B1%BC-%E4%B8%8B%E7%8F%AD%E4%BC%91%E6%81%AF%E5%95%A6%F0%9F%8C%9B-brightgreen?style=social&logo=buymeacoffee
+      ' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
@@ -2921,7 +2924,7 @@ function clearItem() {
 
 // 设置字体
 if (localStorage.getItem("font") == undefined) {
-  localStorage.setItem("font", "LXGW");
+  localStorage.setItem("font", '-apple-system');
 }
 setFont(localStorage.getItem("font"));
 function setFont(n) {
@@ -3174,10 +3177,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://bu.dusays.com/2023/09/25/6511a00fd81e5.webp);
+    --darkmode-bg:url(https://bu.dusays.com/2023/09/25/6511a01001aee.webp);
+    --mobileday-bg: url(https://bu.dusays.com/2024/03/05/65e71d7a59004.webp);
+    --mobilenight-bg: url(https://bu.dusays.com/2023/09/25/65119ea97d142.webp);
   }`;
 }
 // 切换背景主函数

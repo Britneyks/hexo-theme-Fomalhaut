@@ -1,10 +1,148 @@
-- class_name: 0.推荐网站🍔
-  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
-  link_list: 
+- class_name: 0.常用网站
+  class_desc: 我的得力小助手
+  link_list:
+    - name: 我的主页
+      link: https://zifyu.top
+      avatar: https://bu.dusays.com/2023/07/02/64a0e0e8e1ec3.png
+      descr: 宁鸣而死，不默而生
+    - name: 去不图床
+      link: https://7bu.top/user/images
+      avatar: https://7bu.top/favicon.ico 
+      descr: 杜老师说旗下付费图片外链平台
+
+- class_name: 1.小伙伴
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+      descr: 生活明朗，万物可爱
+      # siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+    - name: Ariasaka
+      link: https://yisous.xyz/
+      avatar: https://yisous.xyz/img/a.webp
+      descr: 人有悲欢离合,月有阴晴圆缺
+      # siteshot: https://bu.dusays.com/2023/05/28/6472c486ce838.jpg
+    - name: Kouseki
+      link: https://hexo.kouseki.cn/
+      avatar: https://hexo.kouseki.cn/imgs/avatar.webp
+      descr: 愿岁并谢，与友长兮。
+      # siteshot: https://cdn1.tianli0.top/gh/Katou-Kouseki/APicx@main/BlogCDN/imgs/sleep.gif
+    - name: 偷掉月亮的阿硕
+      link: https://moonshuo.cn/
+      avatar: https://bu.dusays.com/2023/07/27/64c274ca18601.gif
+      descr: 我们一起去偷月亮吧
+    - name: 枫叶
+      link: https://blog.aqcoder.cn/
+      avatar: https://blog.aqcoder.cn/img/avatar.png
+      descr: 分享知识，认识世界  
+    - name: 虹色轨迹🌠
+      link: https://ovoz.cn
+      avatar: https://ovoz.cn/assets/avatar.webp
+      descr: 做一颗星星，有棱有角，黑暗中闪闪发光🍭🍭🍭
+      # siteshot: https://ovoz.cn/assets/ovoz.cn.jpg
+    - name: 青桔气球
+      link: https://blog.qjqq.cn/
+      avatar: https://avatar.qjqq.cn/1/646cdb372913c.webp!avatar
+      descr: 分享网络安全与科技生活
+      # siteshot: https://avatar.qjqq.cn/1/647571edf20a9.webp!avatar
+    - name: 神经蛙`Blog
+      link: https://hexo.sjava.cn/
+      avatar: https://hexo.sjava.cn/img/pic.png
+      descr: 种一棵树最好的时间是十年前，其次是现在。
+      # siteshot: https://lx95.top/upload/2022/04/215738-1544450258391e.jpg
+    - name: Hieroglyphs
+      link: https://www.hieroglyphs.top/
+      avatar: https://npm.elemecdn.com/hieroglyphs.package/blog/img/avatar.png
+      descr: 一生俯首拜阳明
+      # siteshot: https://npm.elemecdn.com/hieroglyphs.package/blog/img/screenshot.png
+    - name: Eurkon
+      link: https://blog.eurkon.com/
+      avatar: https://bu.dusays.com/2023/07/10/64abc407845b4.jpg
+      descr: 及时当勉励，岁月不待人。
+      # siteshot: https://bu.dusays.com/2023/07/10/64abc339dfad6.png
+    - name: SmileToC
+      link: https://smiletoc.top
+      avatar: https://blog-pic-music.oss-cn-guangzhou.aliyuncs.com/picture/202305301512460.webp
+      descr: 生活不止眼前的苟且，还有诗和远方
+    - name: Ading阿定の小站
+      link: https://saop.cc
+      avatar: https://picbed.saop.cc/Asuna/Asuna1x1.png
+      descr: 我们终会相遇相知，在那悠远的苍穹
+      # siteshot: https://picbed.saop.cc/Asuna/Asuna-EvolutionaryProcess_2.png
+    - name: 呆鱼
+      link: https://daiyu.fun/
+      avatar: https://daiyu.fun/img/avatar.png
+      descr: 命运之所以称为命运，正是因为它无可改变。
+      # siteshot: https://daiyu.fun/img/Snipaste_2022-12-03_11-40-48.png
+    - name: 摸鱼星球
+      link: https://moyustar.cn/
+      avatar: https://moyustar.cn/icon.png
+      descr: 斯人若彩虹，遇见方知有
+      # siteshot: https://moyustar.cn/fengmian.png
+    - name: 你好可爱
+      link: https://wjldarling.top/
+      avatar: https://cdn.staticaly.com/gh/1405720461/images@master/img/188.jpg
+      descr: 山水一程，三生有幸✨
+      # siteshot: https://cdn.staticaly.com/gh/1405720461/images@master/img/wjldarling.webp
+    - name: 王貔貅
+      link: https://blog.wpixiu.cn/
+      avatar: https://picture.wpixiu.cn/vSIsvO.jpg
+      descr: 日就月将,学有缉熙于光明
+      # siteshot: https://picture.wpixiu.cn/34O6IS.jpg
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2023/07/08/64a98214bd43b.png
+      descr: 分享设计与科技生活
+      # siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc3959f82.webp
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://bu.dusays.com/2023/07/08/64a98245a75f3.png
+      descr: 进一寸有进一寸的欢喜。
+      # siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/16/6324505c98fae.jpg
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://bu.dusays.com/2023/07/08/64a982731b3d2.webp
+      descr: 期待你的光临。
+      # siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc39c5966.webp
+    - name: Tianli
+      link: https://tianli-blog.club
+      avatar: https://bu.dusays.com/2023/07/08/64a982a90bc89.webp
+      descr: 惟其不可能，所以才相信。
+      # siteshot: https://img02.anheyu.com/adminuploads/1/2022/11/07/6368520c9e4e7.webp
+    - name: 顾梦
+      link: https://www.jishuqin.cn/
+      avatar: https://cloud.jishuqin.cn/avatar.png
+      descr: 不想满心遗憾，那就全力以赴。
+    - name: 祈杰博客
+      link: "https://qijieya.cn/"
+      avatar: https://qijieya.cn/logo.png
+      descr: 英桀们的谢幕 必须盛大而壮丽
+    - name: 懒觉猫先生
+      link: https://blog.luoaicheng.cn/
+      avatar: https://blog.luoaicheng.cn/img/logo.png
+      descr: 睡觉睡觉，睡觉睡觉，喵喵
+    - name: 张时贰
+      link: https://zhsher.cn
+      avatar: https://bu.dusays.com/2023/07/08/64a9834fa5d35.webp
+      descr: 环转码，爱敲代码的小张！
+    - name: 李程ic
+      link: https://www.licic.net/
+      avatar: https://bu.dusays.com/2023/07/08/64a982c431ba9.png
+      descr: 中华人民共和国万岁！
+    - name: 萌傀儡
+      link: https://blhorizon.github.io/
+      avatar: https://bu.dusays.com/2023/06/18/648f23c86659c.webp
+      descr: 珍惜现在，趁早摸鱼
     - name: Fomalhaut🥝
       link: https://www.fomal.cc/
-      avatar: https://www.fomal.cc/assets/avatar.webp
-      descr: Future is now 🍭🍭🍭
-      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
-
-
+      avatar: https://bu.dusays.com/2023/07/08/64a982f445977.webp
+      descr: Welcome to Fomalhaut🥝のTiny Home
+    - name: Fern
+      link: http://www.hi-hufei.com
+      avatar: https://bu.dusays.com/2023/07/08/64a98304c9a4f.webp
+      descr: 一个正在重塑知识的技术人
+    - name: 摆烂人生的小站
+      link: https://balareshe.com
+      avatar: https://balareshe.com/assets/img/long.png
+      descr: 这里是摆烂人生的小站~
